@@ -31,7 +31,7 @@ swagger-ui-layer 要依赖swagger的注解功能，因为swagger-ui-layer 仅仅
 <dependency>
   <groupId>com.github.caspar-chen</groupId>
   <artifactId>swagger-ui-layer</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
