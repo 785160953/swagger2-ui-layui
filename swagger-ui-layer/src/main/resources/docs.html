@@ -55,11 +55,14 @@
 			style="bottom: 0;border-left: solid 2px #1AA094;">
             {{!-- body 内容  $ref = temp_body --}}
 		</div>
+        
+        {{if info.license}}
 		<div class="layui-footer footer">
             <div class="layui-main">
-            <p><a href="{{:info.license.url}}">{{:info.license.name}}</a></p>
+                <a href="{{:info.license.url}}">{{:info.license.name}}</a></p>
             </div>
         </div>
+        {{/if}}
 	</div>
 </script>
 <script id="temp_body" type="text/template">
